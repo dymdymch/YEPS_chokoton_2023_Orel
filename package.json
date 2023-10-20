@@ -1,0 +1,11 @@
+{
+  "name": "chokaton-yeps",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "s": "node index.html"
+  },
+  "author": "",
+  "license": "ISC"
+}
