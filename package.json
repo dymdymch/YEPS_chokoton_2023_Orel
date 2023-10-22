@@ -1,11 +1,17 @@
 {
-  "name": "chokaton-yeps",
+  "name": "yeps_chokoton_2023_orel",
   "version": "1.0.0",
   "description": "",
   "main": "index.html",
   "scripts": {
-    "s": "node index.html"
+    "s": "node index.js"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "openai": "^4.12.4",
+    "readline-sync": "^1.4.10"
+  }
 }

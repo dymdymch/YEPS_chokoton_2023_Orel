@@ -1,0 +1,160 @@
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    /* background-color: #333; */
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+section {
+    padding: 20px;
+}
+
+h2 {
+    color: #333;
+}
+
+p {
+    line-height: 1.6;
+}
+
+/* Додамо стилі для адаптивності */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 24px;
+    }
+    section {
+        padding: 10px;
+    }
+    h2 {
+        font-size: 20px;
+    }
+}
+
+.logo-a{
+    margin-left: 28px;
+    display: flex;
+}
+
+.logo-text{
+    display: block;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 30px;
+}
+
+.heder-flex{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: flex;
+}
+
+.test-logo{
+    height: 116px;
+    width: 125px;
+    padding: 2px;
+    background-color: #CBF7FF;;
+}
+
+.test-logo-block{
+    display: block;
+    margin-right: 50px;
+    margin-left: auto;
+}
+
+.container {
+    display: flex;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+
+.blocks-h-a-cen{
+    min-width:200px;
+    max-width:200px;
+    height: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 50px;
+    padding-bottom: 40px;
+    font-size: 20px;
+    background-color: #7DEAFF;
+}
+
+.blocks-p{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.div-in-block{
+    display: flex;
+    background-color: #CBF7FF;
+    
+}
+
+.png-img{
+    width: 139px;
+    height: 139px;
+
+}
+
+/* .div-a-inBlock{
+    width: 300px;
+} */
+
+.blocks-h-a2{
+    padding: 78px 18px;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 20px;
+    background-color: #7DEAFF;   
+}
+
+.blocks-h-a3{
+    padding: 78px 18px;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 20px;
+    background-color: #7DEAFF;   
+}
+
+.blocks-h-a{
+    /* display:block; */
+    background-color: #7DEAFF; ; /* Заливка */
+    width: 220px; /* Ширина 220 пікселів */
+    height: 176px; /* Висота 176 пікселів */
+    /* margin-top: auto;
+    margin-bottom: auto; */
+    margin: 0; /* Знімаємо зовнішні відступи для тексту */
+}
+
+.img-in-block{
+    width: 137px;
+}
+
+.div-img{
+    width: 1200px;
+}
+
+.img-in-webs{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    width: 300px;
+    height: 300px;
+}
